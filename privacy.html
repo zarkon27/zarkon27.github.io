@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Politique de confidentialité — Hermes</title>
+<style>
+  :root { color-scheme: light dark; }
+  body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+         max-width: 760px; margin: 0 auto; padding: 48px 24px 80px; line-height: 1.65; }
+  h1 { font-size: 1.7rem; }
+  h2 { font-size: 1.1rem; margin-top: 2em; }
+  table { border-collapse: collapse; width: 100%; margin-top: .6em; }
+  th, td { text-align: left; padding: .5em .6em; border-bottom: 1px solid #ddd; vertical-align: top; }
+  footer { margin-top: 3em; font-size: .9rem; color: #666; border-top: 1px solid #ddd; padding-top: 1em; }
+  a { color: #0b62d0; }
+  code { background: rgba(127,127,127,.15); padding: .1em .35em; border-radius: 4px; }
+</style>
+</head>
+<body>
+
+<h1>Politique de confidentialité — Hermes</h1>
+<p><em>Dernière mise à jour : 7 novembre 2026</em></p>
+
+<p>
+  Cette politique décrit comment l'outil <strong>Hermes</strong> (« l'outil ») accède,
+  utilise, conserve et protège les données Google de son unique utilisateur.
+  L'outil est un assistant personnel utilisé par une seule personne, sur un serveur privé.
+  Il ne s'agit pas d'un service public : aucun autre utilisateur ne peut s'y connecter.
+</p>
+
+<h2>1. Responsable du traitement</h2>
+<p>
+  Richard, propriétaire et unique utilisateur de l'outil.<br>
+  Contact : <a href="mailto:agent.richard.hermier@gmail.com">agent.richard.hermier@gmail.com</a>
+</p>
+
+<h2>2. Données Google auxquelles l'outil accède</h2>
+<table>
+  <tr><th>Données</th><th>Finalité</th></tr>
+  <tr>
+    <td>Gmail — lecture des messages (<code>gmail.readonly</code>)</td>
+    <td>Lire et trier les courriels reçus par l'utilisateur, repérer ceux qui appellent une action.</td>
+  </tr>
+  <tr>
+    <td>Gmail — envoi (<code>gmail.send</code>)</td>
+    <td>Envoyer, à la demande de l'utilisateur, des synthèses de veille et des rappels depuis son adresse.</td>
+  </tr>
+  <tr>
+    <td>Gmail — organisation (<code>gmail.modify</code>)</td>
+    <td>Classer, archiver et marquer comme lus les messages traités.</td>
+  </tr>
+  <tr>
+    <td>Google Agenda (<code>calendar</code>)</td>
+    <td>Consulter les rendez-vous et créer des rappels demandés par l'utilisateur.</td>
+  </tr>
+  <tr>
+    <td>Google Drive (<code>drive</code>)</td>
+    <td>Lire et déposer des documents de travail produits pour l'utilisateur.</td>
+  </tr>
+  <tr>
+    <td>Google Docs et Sheets (<code>documents</code>, <code>spreadsheets</code>)</td>
+    <td>Produire et mettre à jour les documents et tableaux de suivi de l'utilisateur.</td>
+  </tr>
+  <tr>
+    <td>Contacts Google (<code>contacts.readonly</code>)</td>
+    <td>Identifier l'expéditeur d'un message pour adapter la réponse ou le rappel.</td>
+  </tr>
+</table>
+
+<h2>3. Utilisation des données</h2>
+<p>
+  Les données Google sont utilisées <strong>exclusivement</strong> pour rendre à l'utilisateur
+  les services qu'il demande : synthèses de veille, tri du courrier, rappels d'agenda et de
+  tâches personnelles, production de documents. L'outil n'utilise pas ces données pour de la
+  publicité, du profilage commercial, de la revente ou de l'entraînement de modèles destinés
+  à des tiers.
+</p>
+
+<h2>4. Partage avec des tiers</h2>
+<p>
+  <strong>Aucune donnée Google n'est vendue, louée ou transmise à un tiers</strong> à des fins
+  commerciales. Les données ne quittent pas l'infrastructure personnelle de l'utilisateur,
+  à une exception près : les extraits strictement nécessaires au traitement d'une demande
+  peuvent être soumis au fournisseur de modèle de langage qui fait fonctionner l'assistant,
+  selon les conditions d'API de ce fournisseur (pas d'usage des données transmises pour
+  l'entraînement dans le cadre d'un contrat API).
+</p>
+
+<h2>5. Conservation</h2>
+<p>
+  Aucune copie permanente de la boîte aux lettres ni de l'agenda n'est constituée : les données
+  sont lues à la demande, au moment du traitement. Les notes de veille produites et les fiches
+  de rappel sont conservées sur le serveur de l'utilisateur, sous son contrôle, et peuvent être
+  supprimées par lui à tout moment. Les identifiants d'accès (jetons OAuth) sont stockés
+  localement avec des permissions restreintes et peuvent être révoqués à tout moment.
+</p>
+
+<h2>6. Sécurité</h2>
+<p>
+  L'outil fonctionne sur un serveur privé, accessible uniquement par son propriétaire.
+  Les jetons OAuth sont stockés localement, avec des permissions de fichier limitées au
+  compte système qui les utilise, et ne sont jamais affichés ni transmis par messagerie.
+  L'accès peut être révoqué instantanément par l'utilisateur depuis la page
+  <a href="https://myaccount.google.com/permissions">myaccount.google.com/permissions</a>.
+</p>
+
+<h2>7. Droits de l'utilisateur</h2>
+<p>
+  L'utilisateur peut à tout moment : consulter et supprimer les notes conservées, révoquer
+  l'accès de l'outil à son compte Google, et demander la suppression de toute donnée dérivée.
+  Une simple demande à l'adresse de contact suffit.
+</p>
+
+<h2>8. Conformité à la politique d'utilisation limitée de Google</h2>
+<p>
+  L'utilisation des informations reçues des API Google respecte la
+  <a href="https://developers.google.com/terms/api-services-user-data-policy">Politique relative
+  aux données utilisateur des services API Google</a>, y compris ses exigences d'utilisation
+  limitée. Ces informations ne sont utilisées que pour fournir ou améliorer les fonctionnalités
+  visibles par l'utilisateur, et ne sont transférées à aucun tiers.
+</p>
+
+<h2>9. Modifications</h2>
+<p>
+  Toute évolution de cette politique sera publiée sur cette page, avec sa date de mise à jour.
+</p>
+
+<footer>
+  <a href="index.html">Accueil</a> ·
+  <a href="terms.html">Conditions d'utilisation</a>
+</footer>
+
+</body>
+</html>
